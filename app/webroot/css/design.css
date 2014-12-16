@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin-top: 20px;
+	background-color: #ffffff;
+}
+
+.like {
+	width: 100%;
+	text-align: right;
+}
+
+.logo {
+	padding: 5px;
+}
+
+.heart {
+	padding: 5px;
+	height: 257px;
+}
+
+#LayoutDiv5 .name {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	width: 90%;
+	color: #ffffff;
+	font-size: 20px;
+	text-shadow: 1px 1px 0px #d4d4d4;
+	margin-top: 20px;
+	padding: 3px 3px 3px 80px;
+	height: 35px;
+	background-color: #cc0000;
+}
+
+#LayoutDiv5 img {
+	margin: 5px 5px 5px 10px;
+	position: absolute;
+	border: 1px solid #ffffff;
+}
+
+@media only screen and (min-width: 481px) {
+	#LayoutDiv5 .name {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+
+	#LayoutDiv5 .name {
+		font-size: 30px;
+		position: absolute;
+		z-index: -55;
+	}
+
+	#LayoutDiv5 img {
+		margin: 5px 5px 5px 10px;
+		position: absolute;
+		border: 1px solid #ffffff;
+	}
+
+}
+
+.waku {
+	overflow: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	height: 250px;
+	border: 1px solid #cc0000;
+}
+
+.waku2 {
+	width: 100%;
+	border: 1px solid #cc0000;
+}
+.waku .hstodd {
+	padding: 2%;
+	width: 40%;
+	float: left;
+}
+
+.waku .hsteven {
+	padding: 2%;
+	width: 40%;
+	float: right;
+}
+
+.waku .time {
+	font-size: 11px;
+	color: #4d4d4d;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+
+.waku .datas {
+	width: 100%;
+	padding: 0px;
+}
+
+.waku .datas img {
+	max-width: 50px;
+	width: 32%;
+}
+
+.mn {
+	margin-top: 5px;
+	text-align: right;
+}
+
+.power {
+	padding: 2%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+}
+
+.thxbtn {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.waku2 img {
+	max-width: 270px;
+	width: 80%;
+}
+
+.heart_fm {
+	position: absolute;
+	z-index: 0;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_aw {
+	position: absolute;
+	z-index: 1;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_1 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_2 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_3 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_4 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_5 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_6 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_7 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_8 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_9 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_10 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_11 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_12 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_13 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_14 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.heart_part_15 {
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	right: 100px;
+}
+
+.footer {
+	margin-top: 10px;
+	text-align: right;
+	font-size: 10px;
+	color: #4d4d4d;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+
+.bubbleInfo {
+	position: relative;
+	top: 150px;
+	left: 100px;
+	width: 500px;
+}
+.trigger {
+	position: absolute;
+}
+
+/* Bubble pop-up */
+
+.popup {
+	position: absolute;
+	display: none;
+	z-index: 50;
+	border-collapse: collapse;
+}
+
+.popup td.corner {
+	height: 15px;
+	width: 19px;
+}
+
+.popup td#topleft {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-1.png);
+}
+.popup td.top {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-2.png);
+}
+.popup td#topright {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-3.png);
+}
+.popup td.left {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-4.png);
+}
+.popup td.right {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-5.png);
+}
+.popup td#bottomleft {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-6.png);
+}
+.popup td.bottom {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-7.png);
+	text-align: center;
+}
+.popup td.bottom img {
+	display: block;
+	margin: 0 auto;
+}
+.popup td#bottomright {
+	background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-8.png);
+}
+
+.popup table.popup-contents {
+	font-size: 12px;
+	line-height: 1.2em;
+	background-color: #fff;
+	color: #666;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+
+table.popup-contents th {
+	text-align: right;
+	text-transform: lowercase;
+}
+
+table.popup-contents td {
+	text-align: left;
+}
+
+tr#release-notes th {
+	text-align: left;
+	text-indent: -9999px;
+	background: url(http://jqueryfordesigners.com/demo/images/coda/starburst.gif) no-repeat top right;
+	height: 17px;
+}
+
+tr#release-notes td a {
+	color: #333;
+}
